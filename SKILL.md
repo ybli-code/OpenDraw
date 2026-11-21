@@ -11,7 +11,7 @@ description: Reusable numbered image style presets. Select STYLE-001 or STYLE-00
 - 保留源照片主体身份、姿势、重要环境特征。
 - 用户的具体要求优先于预设中的可选文字排版；除非明确要求，不修改固定画幅和上下50%结构。
 - 不同风格彼此独立，不得把 STYLE-001 的几何解构规则误套在 STYLE-002 上。
-- 新增风格按编号创建 `styles/style-003/STYLE.md` 等路径，并更新索引。
+- 新增风格按编号创建 `styles/style-004/STYLE.md` 等路径，并更新索引。
 - 本仓库提供可移植提示词，不代表已经安装到某个绘图平台。
 
 ## 风格索引
@@ -19,7 +19,10 @@ description: Reusable numbered image style presets. Select STYLE-001 or STYLE-00
 |---|---|---|
 | STYLE-001 | 几何解构拼贴海报 | `styles/style-001/STYLE.md` |
 | STYLE-002 | 第二世界 · 连续拼贴海报 | `styles/style-002/STYLE.md` |
+| STYLE-003 | 中国写意水墨 · 照片转画 | `styles/style-003/STYLE.md` |
 
 ## 调用匹配
 - “使用风格001”“STYLE-001”“几何解构拼贴海报” → `styles/style-001/STYLE.md`
 - “使用风格002”“STYLE-002”“第二世界”“Second World” → `styles/style-002/STYLE.md`
+
+- “STYLE-003”“水墨画”“写意水墨” → `styles/style-003/STYLE.md`
