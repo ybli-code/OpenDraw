@@ -7,6 +7,7 @@
 |---|---|---|
 | STYLE-001 | 几何解构拼贴海报 | [查看完整提示词](styles/style-001/STYLE.md) |
 | STYLE-002 | 第二世界 · 连续拼贴海报 | [查看完整提示词](styles/style-002/STYLE.md) |
+| STYLE-003 | 中国写意水墨 · 照片转画 | [查看提炼提示词](styles/style-003/STYLE.md) |
 
 ## 使用
 上传一张照片并说：“使用 STYLE-001 处理这张照片”或“使用 STYLE-002 制作第二世界海报”。也可以直接复制风格文件中的完整提示词至支持图像编辑的 AI 工具。
@@ -18,9 +19,11 @@
 - `LICENSE`：MIT 开源协议
 
 ## 扩展
-新增风格时创建 `styles/style-003/STYLE.md`，并更新 `SKILL.md` 与本页目录。
+新增风格时创建 `styles/style-004/STYLE.md`，并更新 `SKILL.md` 与本页目录。
 
 本仓库暂不公开未确认授权的原始照片及其生成示例图片；发布参考图前请确认相应授权。不同 AI 平台的 Skill 安装与图像编辑能力有所不同。
+
+STYLE-003 基于 [BigFish-zZz/bigfish-ink-wash-photo](https://github.com/BigFish-zZz/bigfish-ink-wash-photo) 公开说明提炼并独立改写；原项目未声明许可证，请勿将本仓库 MIT 视为原项目授权。
 
 ## License
 MIT
